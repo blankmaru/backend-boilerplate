@@ -2,6 +2,10 @@
   "name": "usable-mern-template",
   "version": "1.0.0",
   "description": "",
+  "engine": {
+    "node": "14.2.0",
+    "npm": "6.14.4"
+  },
   "main": "server.js",
   "scripts": {
     "backend": "nodemon server/server.js",

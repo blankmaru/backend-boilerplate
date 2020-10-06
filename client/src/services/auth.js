@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'http://localhost:5000/api/user/'; // update when prod
+const url = 'https://warm-wave-04665.herokuapp.com/'; // update when prod https://warm-wave-04665.herokuapp.com/ http://localhost:5000/api/user/
 
 class Auth {
     register(name, email, password) {
